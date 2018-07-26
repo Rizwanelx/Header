@@ -28,9 +28,7 @@
                 "input": "./node_modules/bootstrap/dist/css/bootstrap.css"
               }
             ],
-            "scripts": [
-              "/../animation.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
