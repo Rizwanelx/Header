@@ -13,11 +13,12 @@ import { AppComponent } from './app.component';
 import { HeaderComponent} from './header/header.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
-
+import { BackgroundSliderComponent } from './background-slider/background-slider.component';
+import {animation} from '../animation.js';
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, BackgroundSliderComponent],
   bootstrap: [AppComponent],
 
   imports: [
